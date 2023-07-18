@@ -2,9 +2,9 @@ import streamlit as st
 import joblib
 
 # 載入模型與標準化轉換模型
-svm_clf = joblib.load('WebApp/d2_svm_model.joblib')
-knn_clf = joblib.load('WebApp/d2_knn_model.joblib')
-rf_clf = joblib.load('WebApp/d2_rf_model.joblib')
+svm_clf = joblib.load('d2_svm_model.joblib')
+knn_clf = joblib.load('d2_knn_model.joblib')
+rf_clf = joblib.load('d2_rf_model.joblib')
 
 st.title("鳶尾花預測(無資料縮放)")
 #側邊欄
